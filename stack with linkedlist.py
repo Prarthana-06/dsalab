@@ -21,7 +21,7 @@ class Stack:
     def size(self):
         return len(self.stack)
 
-# Create a stack
+
 myStack = Stack()
 
 myStack.push('10')
@@ -34,5 +34,6 @@ print("Pop: ", myStack.pop())
 print("Peek: ", myStack.peek())
 
 print("isEmpty: ", myStack.isEmpty())
+
 
 print("Size: ", myStack.size())
